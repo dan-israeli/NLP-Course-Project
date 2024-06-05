@@ -1,4 +1,4 @@
-# NLP Course Project 📝
+# NLP Course Project 🤖📝
 
 ## Contents
 - [Running Instructions](#running-instructions)
