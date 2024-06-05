@@ -3,8 +3,8 @@
 ## Contents
 - [Running Instructions](#running-instructions)
   - [Recreate Experiments Results](#recreate-experiments-results)
-  - [Primary Research - Creating the proba2go Files](#primary-research---creating-the-proba2go-files)
-  - [Secondary Research - Creating the BERT PCA Embeddings Files](#secondary-research---creating-the-bert-pca-embeddings-files)
+  - [Primary Research - Recreating the proba2go Files](#primary-research---recreating-the-proba2go-files)
+  - [Secondary Research - Recreating the BERT PCA Embeddings Files](#secondary-research---recreating-the-bert-pca-embeddings-files)
 
 ## Running Instructions
 
@@ -81,7 +81,7 @@ As a shortcut to execute steps 2-5, and to run **all** of the experiments, follo
 
 3. Follow the instructions presented in the terminal.
 
-### Primary Research - Creating the proba2go Files
+### Primary Research - Recreating the proba2go Files
 
 The new proba2go files that were created for our experiments, and are required in order to run the code, are as follows:
 
@@ -103,7 +103,7 @@ Regardless, to recreate them, follow the steps below:
 
 4. Run the Python file to receive the mentioned proba2go files.
 
-### Secondary Research - Creating the BERT PCA Embeddings Files
+### Secondary Research - Recreating the BERT PCA Embeddings Files
 
 The new BERT PCA embeddings files that were created for our experiments, and are required in order to run the code, are as follows:
 
