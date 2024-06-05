@@ -19,12 +19,12 @@ sweep_config = {
     },
     "parameters": {
         "ENV_HPT_mode": {"values": [False]},
-	    "architecture": {"values": ["LSTM", "transformer"]},
+	"architecture": {"values": ["LSTM", "transformer"]},
         "features": {"values": ["EFs"]},
         "online_simulation_factor": {"values": [0, 0.5, 1, 2, 4, 10]},
         "simulation_user_improve": {"values": [0.01]},
         "basic_nature": {"values": [17]},
-	    "total_epochs": {"values": [25]},
+	"total_epochs": {"values": [25]},
         "seed": {"values": list(range(1, 4))}
     },
     "command": command
