@@ -77,7 +77,7 @@ As a shortcut to execute steps 2-5, and to run **all** of the experiments, follo
 
 ### Primary Research - Creating the proba2go Files
 
-The new proba2go files that are required in order to run our code, are as follows:
+The new proba2go files that were created for our experiments, and are required in order to run the code, are as follows:
 
 - positive_proba2go.txt
 - negative_proba2go.txt
@@ -99,7 +99,7 @@ Regardless, to recreate them, follow the steps below:
 
 ### Secondary Research - Creating the BERT PCA Embedding Files
 
-The BERT PCA embeddings files that are required in order to run our code, are as follows:
+The new BERT PCA embeddings files that were created for our experiments, and are required in order to run the code, are as follows:
 
 BERT_PCA_{i}.csv (for i = 5, 10, ... 250)
 
