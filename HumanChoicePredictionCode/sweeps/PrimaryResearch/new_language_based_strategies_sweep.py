@@ -24,7 +24,7 @@ sweep_config = {
         "online_simulation_factor": {"values": [2]},
         "simulation_user_improve": {"values": [0.005, 0.01, 0.02]},
         "basic_nature": {"values": list(range(17, 24))},
-	    "total_epochs": {"values": [20]},
+	"total_epochs": {"values": [20]},
         "seed": {"values": list(range(1, 4))}
     },
     "command": command
