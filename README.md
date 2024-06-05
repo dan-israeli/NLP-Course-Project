@@ -62,13 +62,18 @@ To recreate an experiment (sweep) on your local machine, follow these steps:
 
 **Optional shortcut**
 
-As a shortcut to execute steps 2-5, and to run **all** of the experiments, use the following command:
-    
-```bash
-source NLP-Course-Project/HumanChoicePredictionCode/RunningScripts/clone_and_init_dan-israeli.sh
-```
+As a shortcut to execute steps 2-5, and to run **all** of the experiments, follow the steps below:
 
-Then, follow the instructions presented in the terminal.
+1. Download the provided "clone_and_init_dan-israeli.sh" file (from the repository's main directory).
+2. Open the terminal and run the following command:
+    
+   ```bash
+   source <file_path>
+   ```
+
+   Where <file_path> is the path of the downloaded file on your local machine.
+
+3. Follow the instructions presented in the terminal.
 
 ### Primary Research - Creating the proba2go Files
 
