@@ -11,8 +11,8 @@ conda env create -f requirements.yml
 conda activate final_project_env
 
 # run the sweeps of the primary research
-python RunningScripts/sweeps/PrimaryResearch/new_language_based_strategies_sweep.py
-python RunningScripts/sweeps/PrimaryResearch/best_new_strategy_(strictly_positive)_results_sweep.py
+python sweeps/PrimaryResearch/new_language_based_strategies_sweep.py
+python sweeps/PrimaryResearch/best_new_strategy_(strictly_positive)_results_sweep.py
 
 # run the sweeps of the secondary research
-python RunningScripts/sweeps/SecondaryResearch/bert_pca_experiment_sweep.py
+python sweeps/SecondaryResearch/bert_pca_experiment_sweep.py
