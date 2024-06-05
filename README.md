@@ -1,5 +1,11 @@
 # NLP Course Project 📝
 
+## Contents
+- [Running Instructions](#running-instructions)
+  - [Recreate Experiments Results](#recreate-experiments-results)
+  - [Primary Research - Creating the proba2go Files](#primary-research---creating-the-proba2go-files)
+  - [Secondary Research - Creating the BERT PCA Embeddings Files](#secondary-research---creating-the-bert-pca-embeddings-files)
+
 ## Running Instructions
 
 ### Recreate Experiments Results
@@ -97,7 +103,7 @@ Regardless, to recreate them, follow the steps below:
 
 4. Run the Python file to receive the mentioned proba2go files.
 
-### Secondary Research - Creating the BERT PCA Embedding Files
+### Secondary Research - Creating the BERT PCA Embeddings Files
 
 The new BERT PCA embeddings files that were created for our experiments, and are required in order to run the code, are as follows:
 
