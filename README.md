@@ -2,30 +2,105 @@
 
 ## Running Instructions
 
-### Primary Research - Creating the proba2go Files 
-To recreate the proba2go files:
+### Recreate Experiments Results
+
+The experiments in our project were executed and tracked using the Weights & Biases platform.
+
+To recreate an experiment (sweep) on your local machine, follow these steps:
+
+1. **Log in to Weights & Biases (W&B)** 
+
+   Use the following command to log in to your W&B account:
+    ```bash
+    wandb login
+    ```
+
+   *Note that you can create an account in the following [link](https://wandb.ai/site).
+
+2. **Clone the repository**
+
+   Use the following command to clone the repository to your local machine using Git:
+   
+   ```bash
+   git clone https://github.com/dan-israeli/NLP-Course-Project
+    ```
+4. **Create and activate the conda environment**
+
+    After cloning the repository, navigate into the project code directory:
+
+    ```bash
+    cd NLP-Course-Project/HumanChoicePredictionCode
+    ```
+
+    Then, use the following command to create a conda environment from the requirements.yml file provided in the project:
+    ```bash
+    conda env create -f requirements.yml
+    ```
+
+5. **Activate the environment**
+
+    Now, use the following command to activate the created environment:
+    ```bash
+    conda activate final_project_env
+    ```
+6. **Running an experiment**
+
+    Finally, use the following command to run an experiment (sweep):
+
+   ```bash
+    python <sweep_file_path>
+    ```
+    Where <sweep_file_path> is one of the following paths:
+
+    - RunningScripts/sweeps/PrimaryResearch/new_language_based_strategies_sweep.py
+    - RunningScripts/sweeps/PrimaryResearch/best_new_strategy_(strictly_positive)_results_sweep.py
+    - RunningScripts/sweeps/SecondaryResearch/bert_pca_experiment_sweep.py
+
+    Then, follow the instructions presented in the terminal.
+    
+    *Choose the path according to the experiment you would like to run.
+
+**Optional shortcut**
+
+As a shortcut to execute steps 2-5, and to run **all** of the experiments, use the following command:
+    
+```bash
+source NLP-Course-Project/HumanChoicePredictionCode/RunningScripts/clone_and_init_dan-israeli.sh
+```
+
+Then, follow the instructions presented in the terminal.
+
+### Primary Research - Creating the proba2go Files
+
+The new proba2go files that are required in order to run our code, are as follows:
 
 - positive_proba2go.txt
 - negative_proba2go.txt
 - baseline_proba2go.txt
-  
-Please refer to the provided "LLM_proba2go.py" Python file (in the primary research/proba2go folder).
 
-First, please add the file "all_reviews.csv" to the directory where the Python file is placed (on your local machine).
+These files are provided in this repository (in the appropriate directories).
 
-*The file is provided in the primary research/proba2go folder.
+Regardless, to recreate them, follow the steps below:
 
-Then, please enter your OpenAI API key in the designated line at the top of the Python file:
+1. Download the provided "LLM_proba2go.py" Python file (in the "primary research/proba2go" directory).
+2. Add the provided "all_reviews.csv" file (in the "primary research/proba2go" directory) to the directory where the Python file is placed (on your local machine).
+3. Enter your OpenAI API key in the designated line at the top of the Python file:
 
-![image](https://github.com/dan-israeli/NLP-Course-Project/assets/127883151/e278b9c1-0c73-4186-89c4-c5169b632fd4)
+   ![image](https://github.com/dan-israeli/NLP-Course-Project/assets/127883151/e278b9c1-0c73-4186-89c4-c5169b632fd4)
 
-**Note that you can create an OpenAI API key in the following [link](https://openai.com/blog/openai-api).
+    *Note that you can create an OpenAI API key in the following [link](https://openai.com/blog/openai-api).
 
-Lastly, simply run the Python file to receive the proba2go files.
+4. Run the Python file to receive the mentioned proba2go files.
 
 ### Secondary Research - Creating the BERT PCA Embedding Files
-In order to recreate the BERT PCA embedding files, please refer to the provided notebook (.ipynb file).
 
-Then, run all the code blocks under the "Creating the PCA Embeddings for the Tested Dimensions" section according to the instructions.
+The BERT PCA embeddings files that are required in order to run our code, are as follows:
 
-*The notebook is provided in the Notebooks_dan-israeli folder.
+BERT_PCA_{i}.csv (for i = 5, 10, ... 250)
+
+These files are provided in this repository (in the appropriate directories).
+
+Regardless, to recreate them, follow the steps below:
+
+1. Download the provided .ipynb notebook (in the "Notebooks_dan-israeli" directory).
+2. Run all the code blocks under the "Creating the PCA Embeddings for the Tested Dimensions" section according to the notebook's instructions.
