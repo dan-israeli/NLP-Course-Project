@@ -12,7 +12,11 @@ conda activate final_project_env
 
 # run the sweeps of the primary research
 python sweeps/PrimaryResearch/new_language_based_strategies_sweep.py
+printf "\n"
+
 python sweeps/PrimaryResearch/best_new_strategy_strictly_positive_results_sweep.py
+printf "\n"
 
 # run the sweeps of the secondary research
 python sweeps/SecondaryResearch/bert_pca_experiment_sweep.py
+printf "\n"
