@@ -59,7 +59,7 @@ To recreate an experiment (sweep) on your local machine, follow these steps:
     Where <sweep_file_path> is one of the following paths:
 
     - sweeps/PrimaryResearch/new_language_based_strategies_sweep.py
-    - sweeps/PrimaryResearch/best_new_strategy_(strictly_positive)_results_sweep.py
+    - sweeps/PrimaryResearch/best_new_strategy_strictly_positive_results_sweep.py
     - sweeps/SecondaryResearch/bert_pca_experiment_sweep.py
 
     Then, follow the instructions presented in the terminal.
