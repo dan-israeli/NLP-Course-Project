@@ -1,6 +1,6 @@
 import wandb
 YOUR_WANDB_USERNAME = "nlp_project87"
-project = "Please enter the project name"
+project = "Please_enter_the_project_name"
 
 command = [
         "${ENVIRONMENT_VARIABLE}",
