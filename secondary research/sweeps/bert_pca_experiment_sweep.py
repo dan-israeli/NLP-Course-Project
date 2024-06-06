@@ -1,6 +1,6 @@
 import wandb
-YOUR_WANDB_USERNAME = "Please enter your organization name"
-project = "Please enter the project name"
+YOUR_WANDB_USERNAME = "Please_enter_your_organization_name"
+project = "Please_enter_the_project_name"
 
 command = [
         "${ENVIRONMENT_VARIABLE}",
