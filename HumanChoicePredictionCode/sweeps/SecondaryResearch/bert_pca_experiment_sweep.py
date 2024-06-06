@@ -1,5 +1,5 @@
 import wandb
-YOUR_WANDB_USERNAME = "Please enter your organization name"
+YOUR_WANDB_USERNAME = "nlp_project87"
 project = "Please enter the project name"
 
 command = [
